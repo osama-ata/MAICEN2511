@@ -1,0 +1,9 @@
+[project]
+description = "the assignements required for the course Masters in AI for Architecture and Construction at Zigurat Institute of Technology"
+name = "maicen2511"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.3",
+]

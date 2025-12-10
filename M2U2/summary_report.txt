@@ -1,0 +1,211 @@
+--- Project Cost Summary Report ---
+
+Sites Over Budget:
+                       site_name  estimated_total_cost  actual_total_cost  cost_overrun
+0                 Downtown Plaza                 77000              82000          5000
+1            Harbor View Complex                134000             141000          7000
+3                Riverside Tower                163000             175000         12000
+4          Central Park Building                106000             110500          4500
+5               Northgate Office                151000             163000         12000
+6              Southpoint Retail                 92000              96000          4000
+7             Eastside Warehouse                122000             127500          5500
+8              Hilltop Residence                 74000              77500          3500
+9                Lakefront Villa                115000             124000          9000
+11              Sunset Boulevard                 99000             104500          5500
+12           Ocean Drive Complex                180000             193000         13000
+13           Valley Creek Center                130000             136000          6000
+14             Pine Ridge Office                 84000              88500          4500
+15         Maple Street Building                142000             149500          7500
+16                Oak Lane Plaza                110000             114500          4500
+17             Cedar Point Tower                166000             177000         11000
+18              Birch Grove Mall                124000             129500          5500
+19           Willow Park Complex                 94000              98500          4500
+20             Elm Avenue Center                147000             154500          7500
+21            Spruce Hill Office                104000             109500          5500
+23          Redwood Valley Plaza                117000             122500          5500
+24             Cypress Bay Tower                139000             146000          7000
+25            Juniper Creek Mall                 97000             101500          4500
+26         Sequoia Ridge Complex                159000             168000          9000
+27        Magnolia Street Center                113000             118500          5500
+28            Poplar Lane Office                127000             133000          6000
+29          Sycamore Point Plaza                 89000              93500          4500
+30       Chestnut Grove Building                152000             159500          7500
+31           Hickory Ridge Tower                108000             113500          5500
+32            Walnut Valley Mall                173000             184000         11000
+33           Beech Creek Complex                120000             126000          6000
+34               Fir Hill Office                 82000              86500          4500
+35             Cherry Lane Plaza                145000             152500          7500
+36           Pecan Street Center                101000             106000          5000
+37              Cottonwood Tower                164000             172000          8000
+38          Dogwood Bay Building                125000             131000          6000
+39             Laurel Point Mall                 96000             100500          4500
+40         Hemlock Ridge Complex                149000             157000          8000
+41           Alder Valley Office                111000             116500          5500
+42          Basswood Creek Plaza                168000             175500          7500
+43         Ironwood Street Tower                118000             123500          5500
+44            Locust Hill Center                137000             144000          7000
+45         Mesquite Bay Building                 92000              96500          4500
+46          Persimmon Ridge Mall                157000             165000          8000
+47           Sumac Valley Office                106000             111500          5500
+48          Tamarack Point Plaza                132000             139000          7000
+49             Yew Creek Complex                 87000              91500          4500
+50           Banyan Street Tower                150000             158000          8000
+51          Catalpa Grove Center                103000             108000          5000
+52         Hawthorn Bay Building                171000             180500          9500
+53              Larch Ridge Mall                122000             128000          6000
+54          Mimosa Valley Office                 80000              84500          4500
+55              Rowan Hill Plaza                143000             150500          7500
+56          Tupelo Point Complex                 99000             104500          5500
+57           Buckeye Creek Tower                162000             170500          8500
+58          Ginkgo Street Center                123000             129000          6000
+59           Linden Bay Building                 94000              98500          4500
+60             Acacia Ridge Mall                147000             155000          8000
+61       Jacaranda Valley Office                109000             114500          5500
+62          Mahogany Grove Plaza                166000             174000          8000
+63             Teak Hill Complex                116000             122000          6000
+64            Bamboo Point Tower                135000             142000          7000
+65            Ebony Creek Center                 90000              94500          4500
+66    Sandalwood Street Building                155000             163000          8000
+67             Rosewood Bay Mall                104000             109500          5500
+68            Teak Valley Office                129000             135000          6000
+69         Zebrawood Ridge Plaza                 85000              89500          4500
+70            Boxwood Hill Tower                148000             155500          7500
+71          Lignum Point Complex                107000             112500          5500
+72        Butternut Creek Center                169000             177500          8500
+73        Myrtle Street Building                120000             126000          6000
+74                Olive Bay Mall                 78000              82500          4500
+75           Sapele Ridge Office                141000             148500          7500
+76            Wenge Valley Plaza                 97000             102500          5500
+77           Bubinga Grove Tower                160000             168500          8500
+78         Kingwood Hill Complex                122000             128000          6000
+79             Tamo Point Center                 92000              96500          4500
+80     Afrormosia Creek Building                145000             153000          8000
+81            Etimoe Street Mall                106000             111000          5000
+82             Padauk Bay Office                164000             172500          8500
+83            Cumaru Ridge Plaza                118000             124000          6000
+84              Ipe Valley Tower                134000             140500          6500
+85           Jatoba Hill Complex                 88000              93000          5000
+86        Tigerwood Point Center                153000             160500          7500
+87         Santos Creek Building                102000             107500          5500
+88          Amendoim Street Mall                127000             133000          6000
+89             Garapa Bay Office                 83000              88000          5000
+90      Massaranduba Ridge Plaza                146000             153500          7500
+91           Peroba Valley Tower                109000             114500          5500
+92        Tatajuba Grove Complex                167000             175500          8500
+93            Angico Hill Center                116000             122000          6000
+94        Roxinho Point Building                132000             138500          6500
+95            Angelim Creek Mall                 87000              91500          4500
+96          Goncalo Street Tower                150000             157000          7000
+97            Cupiuba Bay Office                101000             106000          5000
+98         Jequitiba Ridge Plaza                159000             167000          8000
+99       Sucupira Valley Complex                114000             120000          6000
+100            Canela Hill Tower                140000             147000          7000
+101          Freijo Point Center                 95000             100000          5000
+102  Muiracatiara Creek Building                152000             160000          8000
+103          Cacheta Street Mall                107000             112500          5500
+104             Louro Bay Office                162000             170000          8000
+
+Sites with Timeline Delays:
+                       site_name  estimated_duration_days  actual_duration_days  timeline_delay
+0                 Downtown Plaza                       90                    95               5
+1            Harbor View Complex                      120                   125               5
+3                Riverside Tower                      110                   118               8
+4          Central Park Building                      100                   105               5
+5               Northgate Office                      130                   140              10
+6              Southpoint Retail                       85                    88               3
+7             Eastside Warehouse                       95                    98               3
+8              Hilltop Residence                       80                    85               5
+9                Lakefront Villa                      105                   112               7
+11              Sunset Boulevard                       92                    97               5
+12           Ocean Drive Complex                      140                   150              10
+13           Valley Creek Center                      108                   113               5
+14             Pine Ridge Office                       87                    90               3
+15         Maple Street Building                      115                   120               5
+16                Oak Lane Plaza                       98                   102               4
+17             Cedar Point Tower                      128                   135               7
+18              Birch Grove Mall                      102                   107               5
+19           Willow Park Complex                       89                    93               4
+20             Elm Avenue Center                      118                   125               7
+21            Spruce Hill Office                       94                    99               5
+23          Redwood Valley Plaza                      100                   105               5
+24             Cypress Bay Tower                      112                   118               6
+25            Juniper Creek Mall                       90                    94               4
+26         Sequoia Ridge Complex                      122                   130               8
+27        Magnolia Street Center                       97                   102               5
+28            Poplar Lane Office                      106                   111               5
+29          Sycamore Point Plaza                       86                    90               4
+30       Chestnut Grove Building                      119                   126               7
+31           Hickory Ridge Tower                       96                   101               5
+32            Walnut Valley Mall                      135                   143               8
+33           Beech Creek Complex                      103                   108               5
+34               Fir Hill Office                       84                    88               4
+35             Cherry Lane Plaza                      116                   122               6
+36           Pecan Street Center                       93                    98               5
+37              Cottonwood Tower                      127                   134               7
+38          Dogwood Bay Building                      104                   109               5
+39             Laurel Point Mall                       91                    95               4
+40         Hemlock Ridge Complex                      117                   124               7
+41           Alder Valley Office                       99                   104               5
+42          Basswood Creek Plaza                      129                   136               7
+43         Ironwood Street Tower                      101                   106               5
+44            Locust Hill Center                      113                   119               6
+45         Mesquite Bay Building                       88                    92               4
+46          Persimmon Ridge Mall                      121                   128               7
+47           Sumac Valley Office                       95                   100               5
+48          Tamarack Point Plaza                      109                   115               6
+49             Yew Creek Complex                       85                    89               4
+50           Banyan Street Tower                      118                   125               7
+51          Catalpa Grove Center                       94                    99               5
+52         Hawthorn Bay Building                      133                   141               8
+53              Larch Ridge Mall                      104                   109               5
+54          Mimosa Valley Office                       83                    87               4
+55              Rowan Hill Plaza                      115                   121               6
+56          Tupelo Point Complex                       92                    97               5
+57           Buckeye Creek Tower                      126                   133               7
+58          Ginkgo Street Center                      103                   108               5
+59           Linden Bay Building                       89                    93               4
+60             Acacia Ridge Mall                      117                   124               7
+61       Jacaranda Valley Office                       98                   103               5
+62          Mahogany Grove Plaza                      128                   135               7
+63             Teak Hill Complex                      100                   105               5
+64            Bamboo Point Tower                      111                   117               6
+65            Ebony Creek Center                       87                    91               4
+66    Sandalwood Street Building                      120                   127               7
+67             Rosewood Bay Mall                       94                    99               5
+68            Teak Valley Office                      107                   113               6
+69         Zebrawood Ridge Plaza                       84                    88               4
+70            Boxwood Hill Tower                      116                   123               7
+71          Lignum Point Complex                       97                   102               5
+72        Butternut Creek Center                      130                   138               8
+73        Myrtle Street Building                      102                   107               5
+74                Olive Bay Mall                       82                    86               4
+75           Sapele Ridge Office                      114                   120               6
+76            Wenge Valley Plaza                       91                    96               5
+77           Bubinga Grove Tower                      125                   132               7
+78         Kingwood Hill Complex                      103                   108               5
+79             Tamo Point Center                       88                    92               4
+80     Afrormosia Creek Building                      115                   122               7
+81            Etimoe Street Mall                       96                   101               5
+82             Padauk Bay Office                      127                   134               7
+83            Cumaru Ridge Plaza                      101                   106               5
+84              Ipe Valley Tower                      110                   116               6
+85           Jatoba Hill Complex                       86                    90               4
+86        Tigerwood Point Center                      119                   126               7
+87         Santos Creek Building                       93                    98               5
+88          Amendoim Street Mall                      106                   112               6
+89             Garapa Bay Office                       83                    87               4
+90      Massaranduba Ridge Plaza                      116                   123               7
+91           Peroba Valley Tower                       98                   103               5
+92        Tatajuba Grove Complex                      129                   137               8
+93            Angico Hill Center                      100                   105               5
+94        Roxinho Point Building                      109                   115               6
+95            Angelim Creek Mall                       85                    89               4
+96          Goncalo Street Tower                      118                   125               7
+97            Cupiuba Bay Office                       92                    97               5
+98         Jequitiba Ridge Plaza                      123                   130               7
+99       Sucupira Valley Complex                       99                   104               5
+100            Canela Hill Tower                      113                   119               6
+101          Freijo Point Center                       90                    94               4
+102  Muiracatiara Creek Building                      119                   126               7
+103          Cacheta Street Mall                       97                   102               5
+104             Louro Bay Office                      126                   133               7

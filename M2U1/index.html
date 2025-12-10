@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIDIC Notice Generator</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">
+                <i class="bi bi-file-earmark-text"></i> FIDIC Notice Generator
+            </span>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container-fluid my-4">
+        <div class="row">
+            <!-- Input Panel -->
+            <div class="col-lg-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="bi bi-pencil-square"></i> Notice Details</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="noticeForm">
+                            <!-- Clause Selector -->
+                            <div class="mb-3">
+                                <label for="clauseSelector" class="form-label fw-bold">
+                                    Select FIDIC Clause <span class="text-danger">*</span>
+                                </label>
+                                <select class="form-select" id="clauseSelector" required>
+                                    <option value="">-- Choose a Clause --</option>
+                                    <option value="1.9">Sub-Clause 1.9: Delayed Drawings or Instructions</option>
+                                    <option value="4.2">Sub-Clause 4.2: Performance Security</option>
+                                    <option value="8.3">Sub-Clause 8.3: Programme</option>
+                                    <option value="20.1">Sub-Clause 20.1: Contractor's Claims</option>
+                                </select>
+                            </div>
+
+                            <!-- Recipient Name/Title -->
+                            <div class="mb-3">
+                                <label for="recipientName" class="form-label fw-bold">
+                                    Recipient Name/Title <span class="text-danger">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="recipientName"
+                                    placeholder="e.g., The Engineer, John Smith" required>
+                            </div>
+
+                            <!-- Contract Reference Number -->
+                            <div class="mb-3">
+                                <label for="contractRef" class="form-label fw-bold">
+                                    Contract Reference Number <span class="text-danger">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="contractRef"
+                                    placeholder="e.g., Contract No. 2024/ABC/001" required>
+                            </div>
+
+                            <!-- Event Date -->
+                            <div class="mb-3">
+                                <label for="eventDate" class="form-label fw-bold">
+                                    Event Date <span class="text-danger">*</span>
+                                </label>
+                                <input type="date" class="form-control" id="eventDate" required>
+                            </div>
+
+                            <!-- Brief Description -->
+                            <div class="mb-3">
+                                <label for="eventDescription" class="form-label fw-bold">
+                                    Brief Description of Event <span class="text-danger">*</span>
+                                </label>
+                                <textarea class="form-control" id="eventDescription" rows="4"
+                                    placeholder="Provide a clear and concise description of the event or circumstance requiring notice..."
+                                    required></textarea>
+                            </div>
+
+                            <!-- Additional Details -->
+                            <div class="mb-3">
+                                <label for="additionalDetails" class="form-label fw-bold">
+                                    Additional Details <span class="text-muted">(Optional)</span>
+                                </label>
+                                <textarea class="form-control" id="additionalDetails" rows="3"
+                                    placeholder="Any additional information or references..."></textarea>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-primary btn-lg" id="generateBtn">
+                                    <i class="bi bi-gear-fill"></i> Generate Notice
+                                </button>
+                                <button type="reset" class="btn btn-outline-secondary">
+                                    <i class="bi bi-arrow-clockwise"></i> Reset Form
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Output Panel -->
+            <div class="col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="bi bi-file-text"></i> Generated Notice</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Preview Area -->
+                        <div id="previewArea" class="preview-area p-3 mb-3">
+                            <p class="text-muted text-center">
+                                <i class="bi bi-info-circle"></i>
+                                Fill in the form and click "Generate Notice" to see your letter here.
+                            </p>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="d-grid gap-2" id="actionButtons" style="display: none !important;">
+                            <button type="button" class="btn btn-success btn-lg" id="copyBtn">
+                                <i class="bi bi-clipboard-check"></i> Copy to Clipboard
+                            </button>
+                            <button type="button" class="btn btn-outline-primary" id="downloadPdfBtn">
+                                <i class="bi bi-download"></i> Download as PDF
+                            </button>
+                        </div>
+
+                        <!-- Success Alert (hidden by default) -->
+                        <div class="alert alert-success alert-dismissible fade show mt-3" role="alert" id="successAlert"
+                            style="display: none;">
+                            <i class="bi bi-check-circle-fill"></i> <span id="successMessage"></span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">FIDIC Notice Generator &copy; 2025 | For Construction Engineers & Contract
+                Administrators</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jsPDF for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
