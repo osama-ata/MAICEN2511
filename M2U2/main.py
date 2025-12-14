@@ -6,64 +6,46 @@
 - Highlights sites where the budget or timeline is exceeded.
 """
 
+import streamlit as st
 import pandas as pd
 
-input_file = "M2U2/project_data.csv"
+# input_file = "M2U2/project_data.csv"
+
 output_file = "M2U2/summary_report.txt"
 
 
 def main():
+    st.title("Project Data Handling with Python")
+
+    # Streamlit file uploader for CSV input
+    input_file = st.file_uploader(
+        "upload projects data CSV file", type="CSV", accept_multiple_files=False
+    )
+
     # Load structured project data from CSV
-    data = pd.read_csv(input_file)
+    if input_file is not None:
+        df = pd.read_csv(input_file)
 
-    # Calculate total cost per site
-    data["estimated_total_cost"] = (
-        data["estimated_materials_cost"] + data["estimated_labor_cost"]
-    )
-    data["actual_total_cost"] = (
-        data["actual_materials_cost"] + data["actual_labor_cost"]
-    )
+        # Calculate total cost per site
+        df["estimated_total_cost"] = (
+            df["estimated_materials_cost"] + df["estimated_labor_cost"]
+        )
+        df["actual_total_cost"] = df["actual_materials_cost"] + df["actual_labor_cost"]
 
-    # Compare actual vs. estimated values
-    data["cost_overrun"] = data["actual_total_cost"] - data["estimated_total_cost"]
-    data["timeline_delay"] = (
-        data["actual_duration_days"] - data["estimated_duration_days"]
-    )
+        # Compare actual vs. estimated values
+        df["cost_overrun"] = df["actual_total_cost"] - df["estimated_total_cost"]
+        df["timeline_delay"] = (
+            df["actual_duration_days"] - df["estimated_duration_days"]
+        )
 
-    # Highlight sites where the budget or timeline is exceeded
-    over_budget_sites = data[data["cost_overrun"] > 0]
-    delayed_sites = data[data["timeline_delay"] > 0]
+        # Highlight sites where the budget or timeline is exceeded
+        over_budget_sites = df[df["cost_overrun"] > 0]
+        delayed_sites = df[df["timeline_delay"] > 0]
 
-    print("--- Project Cost Summary Report ---")
-    print("\nSites Over Budget:")
-    print(
-        over_budget_sites[
-            [
-                "site_name",
-                "estimated_total_cost",
-                "actual_total_cost",
-                "cost_overrun",
-            ]
-        ]
-    )
+        # Generate summary report
 
-    print("\nSites with Timeline Delays:")
-    print(
-        delayed_sites[
-            [
-                "site_name",
-                "estimated_duration_days",
-                "actual_duration_days",
-                "timeline_delay",
-            ]
-        ]
-    )
-
-    # Optional: Export summary report to .txt or .csv
-    with open(output_file, "w") as f:
-        f.write("--- Project Cost Summary Report ---\n")
-        f.write("\nSites Over Budget:\n")
-        f.write(
+        st.write("\nSites Over Budget:")
+        st.write(
             over_budget_sites[
                 [
                     "site_name",
@@ -71,10 +53,11 @@ def main():
                     "actual_total_cost",
                     "cost_overrun",
                 ]
-            ].to_string()
+            ]
         )
-        f.write("\n\nSites with Timeline Delays:\n")
-        f.write(
+
+        st.write("\nSites with Timeline Delays:")
+        st.write(
             delayed_sites[
                 [
                     "site_name",
@@ -82,10 +65,45 @@ def main():
                     "actual_duration_days",
                     "timeline_delay",
                 ]
-            ].to_string()
+            ]
         )
 
-    print("\nSummary report also saved to summary_report.txt")
+        # Optional: Export summary report to .txt or .csv
+        summary_report = "--- Project Cost Summary Report ---\n"
+        summary_report += "\nSites Over Budget:\n"
+        summary_report += over_budget_sites[
+            [
+                "site_name",
+                "estimated_total_cost",
+                "actual_total_cost",
+                "cost_overrun",
+            ]
+        ].to_string()
+        summary_report += "\n\nSites with Timeline Delays:\n"
+        summary_report += delayed_sites[
+            [
+                "site_name",
+                "estimated_duration_days",
+                "actual_duration_days",
+                "timeline_delay",
+            ]
+        ].to_string()
+
+        st.download_button(
+            label="Download Summary Report",
+            data=summary_report,
+            file_name="summary_report.txt",
+            mime="text/plain",
+        )
+
+
+if __name__ == "__main__":
+    main()
+
+    # Display the uploaded data
+    st.write(df)
+
+    helper_function(df)
 
 
 if __name__ == "__main__":

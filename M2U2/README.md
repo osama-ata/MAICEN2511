@@ -1,30 +1,31 @@
 # M2U2 | Individual Assignment: Project Cost Analysis Tool
 
-A Python-based utility designed to analyze project data from a CSV file. It calculates cost overruns, identifies timeline delays, and generates a summary report.
+An interactive web application built with Streamlit to analyze project data from a CSV file. It calculates cost overruns, identifies timeline delays, and presents the findings in a user-friendly interface.
 
 ## Features
 
-- **Data Loading**: Reads project data from a specified CSV file (`project_data.csv`).
+- **Interactive Data Loading**: Upload project data via a web interface (`project_data.csv`).
 - **Cost Calculation**: Computes total estimated vs. actual costs for materials and labor.
 - **Variance Analysis**: Compares estimated and actual values to identify cost overruns and timeline delays.
 - **Reporting**:
-  - Prints a summary report to the console.
-  - Exports the detailed report to a text file (`summary_report.txt`).
+  - Displays a summary report in the web application.
+  - Allows for downloading the detailed report.
 
 ## Requirements
 
 - Python 3.x
 - pandas
+- streamlit
 
-You can install the necessary library using pip:
+You can install the necessary libraries using pip:
 
 ```bash
-pip install pandas
+pip install pandas streamlit
 ```
 
 ## How to Run
 
-1. **Ensure your data is ready**: Place your `project_data.csv` file in the same directory as the script. The CSV should have the following columns:
+1. **Ensure your data is ready**: Have your `project_data.csv` file ready for upload. The CSV should have the following columns:
     - `site_id`
     - `site_name`
     - `estimated_materials_cost`
@@ -34,15 +35,12 @@ pip install pandas
     - `estimated_duration_days`
     - `actual_duration_days`
 
-2. **Execute the script**: Run the `main.py` script from your terminal:
+2. **Execute the application**: Run the `main.py` script using Streamlit from your terminal:
 
     ```bash
-    python main.py
+    streamlit run M2U2/main.py
     ```
 
 ## Output
 
-The script will generate two outputs:
-
-1. **Console Output**: A summary report will be printed directly to your terminal, showing sites that are over budget and those with timeline delays.
-2. **File Output**: A text file named `summary_report.txt` will be created in the same directory, containing the full report for your records.
+The script will launch a web application in your browser, where you can see the project cost analysis, including sites that are over budget and those with timeline delays.
