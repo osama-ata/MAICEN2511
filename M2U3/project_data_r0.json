@@ -1,0 +1,1052 @@
+[
+    {
+        "site_id": "S001",
+        "site_name": "Downtown Plaza",
+        "estimated_materials_cost": "45000",
+        "actual_materials_cost": "47500",
+        "estimated_labor_cost": "32000",
+        "actual_labor_cost": "34500",
+        "estimated_duration_days": "90",
+        "actual_duration_days": "95"
+    },
+    {
+        "site_id": "S002",
+        "site_name": "Harbor View Complex",
+        "estimated_materials_cost": "78000",
+        "actual_materials_cost": "82000",
+        "estimated_labor_cost": "56000",
+        "actual_labor_cost": "59000",
+        "estimated_duration_days": "120",
+        "actual_duration_days": "125"
+    },
+    {
+        "site_id": "S003",
+        "site_name": "Westside Mall",
+        "estimated_materials_cost": "120000",
+        "actual_materials_cost": "115000",
+        "estimated_labor_cost": "85000",
+        "actual_labor_cost": "82000",
+        "estimated_duration_days": "150",
+        "actual_duration_days": "145"
+    },
+    {
+        "site_id": "S004",
+        "site_name": "Riverside Tower",
+        "estimated_materials_cost": "95000",
+        "actual_materials_cost": "102000",
+        "estimated_labor_cost": "68000",
+        "actual_labor_cost": "73000",
+        "estimated_duration_days": "110",
+        "actual_duration_days": "118"
+    },
+    {
+        "site_id": "S005",
+        "site_name": "Central Park Building",
+        "estimated_materials_cost": "62000",
+        "actual_materials_cost": "64500",
+        "estimated_labor_cost": "44000",
+        "actual_labor_cost": "46000",
+        "estimated_duration_days": "100",
+        "actual_duration_days": "105"
+    },
+    {
+        "site_id": "S006",
+        "site_name": "Northgate Office",
+        "estimated_materials_cost": "88000",
+        "actual_materials_cost": "95000",
+        "estimated_labor_cost": "63000",
+        "actual_labor_cost": "68000",
+        "estimated_duration_days": "130",
+        "actual_duration_days": "140"
+    },
+    {
+        "site_id": "S007",
+        "site_name": "Southpoint Retail",
+        "estimated_materials_cost": "54000",
+        "actual_materials_cost": "56000",
+        "estimated_labor_cost": "38000",
+        "actual_labor_cost": "40000",
+        "estimated_duration_days": "85",
+        "actual_duration_days": "88"
+    },
+    {
+        "site_id": "S008",
+        "site_name": "Eastside Warehouse",
+        "estimated_materials_cost": "71000",
+        "actual_materials_cost": "74000",
+        "estimated_labor_cost": "51000",
+        "actual_labor_cost": "53500",
+        "estimated_duration_days": "95",
+        "actual_duration_days": "98"
+    },
+    {
+        "site_id": "S009",
+        "site_name": "Hilltop Residence",
+        "estimated_materials_cost": "43000",
+        "actual_materials_cost": "45000",
+        "estimated_labor_cost": "31000",
+        "actual_labor_cost": "32500",
+        "estimated_duration_days": "80",
+        "actual_duration_days": "85"
+    },
+    {
+        "site_id": "S010",
+        "site_name": "Lakefront Villa",
+        "estimated_materials_cost": "67000",
+        "actual_materials_cost": "72000",
+        "estimated_labor_cost": "48000",
+        "actual_labor_cost": "52000",
+        "estimated_duration_days": "105",
+        "actual_duration_days": "112"
+    },
+    {
+        "site_id": "S011",
+        "site_name": "Mountain View Estate",
+        "estimated_materials_cost": "91000",
+        "actual_materials_cost": "88000",
+        "estimated_labor_cost": "65000",
+        "actual_labor_cost": "62000",
+        "estimated_duration_days": "125",
+        "actual_duration_days": "120"
+    },
+    {
+        "site_id": "S012",
+        "site_name": "Sunset Boulevard",
+        "estimated_materials_cost": "58000",
+        "actual_materials_cost": "61000",
+        "estimated_labor_cost": "41000",
+        "actual_labor_cost": "43500",
+        "estimated_duration_days": "92",
+        "actual_duration_days": "97"
+    },
+    {
+        "site_id": "S013",
+        "site_name": "Ocean Drive Complex",
+        "estimated_materials_cost": "105000",
+        "actual_materials_cost": "112000",
+        "estimated_labor_cost": "75000",
+        "actual_labor_cost": "81000",
+        "estimated_duration_days": "140",
+        "actual_duration_days": "150"
+    },
+    {
+        "site_id": "S014",
+        "site_name": "Valley Creek Center",
+        "estimated_materials_cost": "76000",
+        "actual_materials_cost": "79000",
+        "estimated_labor_cost": "54000",
+        "actual_labor_cost": "57000",
+        "estimated_duration_days": "108",
+        "actual_duration_days": "113"
+    },
+    {
+        "site_id": "S015",
+        "site_name": "Pine Ridge Office",
+        "estimated_materials_cost": "49000",
+        "actual_materials_cost": "51500",
+        "estimated_labor_cost": "35000",
+        "actual_labor_cost": "37000",
+        "estimated_duration_days": "87",
+        "actual_duration_days": "90"
+    },
+    {
+        "site_id": "S016",
+        "site_name": "Maple Street Building",
+        "estimated_materials_cost": "83000",
+        "actual_materials_cost": "87000",
+        "estimated_labor_cost": "59000",
+        "actual_labor_cost": "62500",
+        "estimated_duration_days": "115",
+        "actual_duration_days": "120"
+    },
+    {
+        "site_id": "S017",
+        "site_name": "Oak Lane Plaza",
+        "estimated_materials_cost": "64000",
+        "actual_materials_cost": "66500",
+        "estimated_labor_cost": "46000",
+        "actual_labor_cost": "48000",
+        "estimated_duration_days": "98",
+        "actual_duration_days": "102"
+    },
+    {
+        "site_id": "S018",
+        "site_name": "Cedar Point Tower",
+        "estimated_materials_cost": "97000",
+        "actual_materials_cost": "103000",
+        "estimated_labor_cost": "69000",
+        "actual_labor_cost": "74000",
+        "estimated_duration_days": "128",
+        "actual_duration_days": "135"
+    },
+    {
+        "site_id": "S019",
+        "site_name": "Birch Grove Mall",
+        "estimated_materials_cost": "72000",
+        "actual_materials_cost": "75000",
+        "estimated_labor_cost": "52000",
+        "actual_labor_cost": "54500",
+        "estimated_duration_days": "102",
+        "actual_duration_days": "107"
+    },
+    {
+        "site_id": "S020",
+        "site_name": "Willow Park Complex",
+        "estimated_materials_cost": "55000",
+        "actual_materials_cost": "57500",
+        "estimated_labor_cost": "39000",
+        "actual_labor_cost": "41000",
+        "estimated_duration_days": "89",
+        "actual_duration_days": "93"
+    },
+    {
+        "site_id": "S021",
+        "site_name": "Elm Avenue Center",
+        "estimated_materials_cost": "86000",
+        "actual_materials_cost": "90000",
+        "estimated_labor_cost": "61000",
+        "actual_labor_cost": "64500",
+        "estimated_duration_days": "118",
+        "actual_duration_days": "125"
+    },
+    {
+        "site_id": "S022",
+        "site_name": "Spruce Hill Office",
+        "estimated_materials_cost": "61000",
+        "actual_materials_cost": "64000",
+        "estimated_labor_cost": "43000",
+        "actual_labor_cost": "45500",
+        "estimated_duration_days": "94",
+        "actual_duration_days": "99"
+    },
+    {
+        "site_id": "S023",
+        "site_name": "Aspen Heights Building",
+        "estimated_materials_cost": "99000",
+        "actual_materials_cost": "96000",
+        "estimated_labor_cost": "71000",
+        "actual_labor_cost": "68000",
+        "estimated_duration_days": "132",
+        "actual_duration_days": "128"
+    },
+    {
+        "site_id": "S024",
+        "site_name": "Redwood Valley Plaza",
+        "estimated_materials_cost": "68000",
+        "actual_materials_cost": "71000",
+        "estimated_labor_cost": "49000",
+        "actual_labor_cost": "51500",
+        "estimated_duration_days": "100",
+        "actual_duration_days": "105"
+    },
+    {
+        "site_id": "S025",
+        "site_name": "Cypress Bay Tower",
+        "estimated_materials_cost": "81000",
+        "actual_materials_cost": "85000",
+        "estimated_labor_cost": "58000",
+        "actual_labor_cost": "61000",
+        "estimated_duration_days": "112",
+        "actual_duration_days": "118"
+    },
+    {
+        "site_id": "S026",
+        "site_name": "Juniper Creek Mall",
+        "estimated_materials_cost": "57000",
+        "actual_materials_cost": "59500",
+        "estimated_labor_cost": "40000",
+        "actual_labor_cost": "42000",
+        "estimated_duration_days": "90",
+        "actual_duration_days": "94"
+    },
+    {
+        "site_id": "S027",
+        "site_name": "Sequoia Ridge Complex",
+        "estimated_materials_cost": "93000",
+        "actual_materials_cost": "98000",
+        "estimated_labor_cost": "66000",
+        "actual_labor_cost": "70000",
+        "estimated_duration_days": "122",
+        "actual_duration_days": "130"
+    },
+    {
+        "site_id": "S028",
+        "site_name": "Magnolia Street Center",
+        "estimated_materials_cost": "66000",
+        "actual_materials_cost": "69000",
+        "estimated_labor_cost": "47000",
+        "actual_labor_cost": "49500",
+        "estimated_duration_days": "97",
+        "actual_duration_days": "102"
+    },
+    {
+        "site_id": "S029",
+        "site_name": "Poplar Lane Office",
+        "estimated_materials_cost": "74000",
+        "actual_materials_cost": "77500",
+        "estimated_labor_cost": "53000",
+        "actual_labor_cost": "55500",
+        "estimated_duration_days": "106",
+        "actual_duration_days": "111"
+    },
+    {
+        "site_id": "S030",
+        "site_name": "Sycamore Point Plaza",
+        "estimated_materials_cost": "52000",
+        "actual_materials_cost": "54500",
+        "estimated_labor_cost": "37000",
+        "actual_labor_cost": "39000",
+        "estimated_duration_days": "86",
+        "actual_duration_days": "90"
+    },
+    {
+        "site_id": "S031",
+        "site_name": "Chestnut Grove Building",
+        "estimated_materials_cost": "89000",
+        "actual_materials_cost": "93000",
+        "estimated_labor_cost": "63000",
+        "actual_labor_cost": "66500",
+        "estimated_duration_days": "119",
+        "actual_duration_days": "126"
+    },
+    {
+        "site_id": "S032",
+        "site_name": "Hickory Ridge Tower",
+        "estimated_materials_cost": "63000",
+        "actual_materials_cost": "66000",
+        "estimated_labor_cost": "45000",
+        "actual_labor_cost": "47500",
+        "estimated_duration_days": "96",
+        "actual_duration_days": "101"
+    },
+    {
+        "site_id": "S033",
+        "site_name": "Walnut Valley Mall",
+        "estimated_materials_cost": "101000",
+        "actual_materials_cost": "107000",
+        "estimated_labor_cost": "72000",
+        "actual_labor_cost": "77000",
+        "estimated_duration_days": "135",
+        "actual_duration_days": "143"
+    },
+    {
+        "site_id": "S034",
+        "site_name": "Beech Creek Complex",
+        "estimated_materials_cost": "70000",
+        "actual_materials_cost": "73500",
+        "estimated_labor_cost": "50000",
+        "actual_labor_cost": "52500",
+        "estimated_duration_days": "103",
+        "actual_duration_days": "108"
+    },
+    {
+        "site_id": "S035",
+        "site_name": "Fir Hill Office",
+        "estimated_materials_cost": "48000",
+        "actual_materials_cost": "50500",
+        "estimated_labor_cost": "34000",
+        "actual_labor_cost": "36000",
+        "estimated_duration_days": "84",
+        "actual_duration_days": "88"
+    },
+    {
+        "site_id": "S036",
+        "site_name": "Cherry Lane Plaza",
+        "estimated_materials_cost": "85000",
+        "actual_materials_cost": "89000",
+        "estimated_labor_cost": "60000",
+        "actual_labor_cost": "63500",
+        "estimated_duration_days": "116",
+        "actual_duration_days": "122"
+    },
+    {
+        "site_id": "S037",
+        "site_name": "Pecan Street Center",
+        "estimated_materials_cost": "59000",
+        "actual_materials_cost": "62000",
+        "estimated_labor_cost": "42000",
+        "actual_labor_cost": "44000",
+        "estimated_duration_days": "93",
+        "actual_duration_days": "98"
+    },
+    {
+        "site_id": "S038",
+        "site_name": "Cottonwood Tower",
+        "estimated_materials_cost": "96000",
+        "actual_materials_cost": "100000",
+        "estimated_labor_cost": "68000",
+        "actual_labor_cost": "72000",
+        "estimated_duration_days": "127",
+        "actual_duration_days": "134"
+    },
+    {
+        "site_id": "S039",
+        "site_name": "Dogwood Bay Building",
+        "estimated_materials_cost": "73000",
+        "actual_materials_cost": "76500",
+        "estimated_labor_cost": "52000",
+        "actual_labor_cost": "54500",
+        "estimated_duration_days": "104",
+        "actual_duration_days": "109"
+    },
+    {
+        "site_id": "S040",
+        "site_name": "Laurel Point Mall",
+        "estimated_materials_cost": "56000",
+        "actual_materials_cost": "58500",
+        "estimated_labor_cost": "40000",
+        "actual_labor_cost": "42000",
+        "estimated_duration_days": "91",
+        "actual_duration_days": "95"
+    },
+    {
+        "site_id": "S041",
+        "site_name": "Hemlock Ridge Complex",
+        "estimated_materials_cost": "87000",
+        "actual_materials_cost": "91500",
+        "estimated_labor_cost": "62000",
+        "actual_labor_cost": "65500",
+        "estimated_duration_days": "117",
+        "actual_duration_days": "124"
+    },
+    {
+        "site_id": "S042",
+        "site_name": "Alder Valley Office",
+        "estimated_materials_cost": "65000",
+        "actual_materials_cost": "68000",
+        "estimated_labor_cost": "46000",
+        "actual_labor_cost": "48500",
+        "estimated_duration_days": "99",
+        "actual_duration_days": "104"
+    },
+    {
+        "site_id": "S043",
+        "site_name": "Basswood Creek Plaza",
+        "estimated_materials_cost": "98000",
+        "actual_materials_cost": "102000",
+        "estimated_labor_cost": "70000",
+        "actual_labor_cost": "73500",
+        "estimated_duration_days": "129",
+        "actual_duration_days": "136"
+    },
+    {
+        "site_id": "S044",
+        "site_name": "Ironwood Street Tower",
+        "estimated_materials_cost": "69000",
+        "actual_materials_cost": "72000",
+        "estimated_labor_cost": "49000",
+        "actual_labor_cost": "51500",
+        "estimated_duration_days": "101",
+        "actual_duration_days": "106"
+    },
+    {
+        "site_id": "S045",
+        "site_name": "Locust Hill Center",
+        "estimated_materials_cost": "80000",
+        "actual_materials_cost": "84000",
+        "estimated_labor_cost": "57000",
+        "actual_labor_cost": "60000",
+        "estimated_duration_days": "113",
+        "actual_duration_days": "119"
+    },
+    {
+        "site_id": "S046",
+        "site_name": "Mesquite Bay Building",
+        "estimated_materials_cost": "54000",
+        "actual_materials_cost": "56500",
+        "estimated_labor_cost": "38000",
+        "actual_labor_cost": "40000",
+        "estimated_duration_days": "88",
+        "actual_duration_days": "92"
+    },
+    {
+        "site_id": "S047",
+        "site_name": "Persimmon Ridge Mall",
+        "estimated_materials_cost": "92000",
+        "actual_materials_cost": "96500",
+        "estimated_labor_cost": "65000",
+        "actual_labor_cost": "68500",
+        "estimated_duration_days": "121",
+        "actual_duration_days": "128"
+    },
+    {
+        "site_id": "S048",
+        "site_name": "Sumac Valley Office",
+        "estimated_materials_cost": "62000",
+        "actual_materials_cost": "65000",
+        "estimated_labor_cost": "44000",
+        "actual_labor_cost": "46500",
+        "estimated_duration_days": "95",
+        "actual_duration_days": "100"
+    },
+    {
+        "site_id": "S049",
+        "site_name": "Tamarack Point Plaza",
+        "estimated_materials_cost": "77000",
+        "actual_materials_cost": "81000",
+        "estimated_labor_cost": "55000",
+        "actual_labor_cost": "58000",
+        "estimated_duration_days": "109",
+        "actual_duration_days": "115"
+    },
+    {
+        "site_id": "S050",
+        "site_name": "Yew Creek Complex",
+        "estimated_materials_cost": "51000",
+        "actual_materials_cost": "53500",
+        "estimated_labor_cost": "36000",
+        "actual_labor_cost": "38000",
+        "estimated_duration_days": "85",
+        "actual_duration_days": "89"
+    },
+    {
+        "site_id": "S051",
+        "site_name": "Banyan Street Tower",
+        "estimated_materials_cost": "88000",
+        "actual_materials_cost": "92500",
+        "estimated_labor_cost": "62000",
+        "actual_labor_cost": "65500",
+        "estimated_duration_days": "118",
+        "actual_duration_days": "125"
+    },
+    {
+        "site_id": "S052",
+        "site_name": "Catalpa Grove Center",
+        "estimated_materials_cost": "60000",
+        "actual_materials_cost": "63000",
+        "estimated_labor_cost": "43000",
+        "actual_labor_cost": "45000",
+        "estimated_duration_days": "94",
+        "actual_duration_days": "99"
+    },
+    {
+        "site_id": "S053",
+        "site_name": "Hawthorn Bay Building",
+        "estimated_materials_cost": "100000",
+        "actual_materials_cost": "105000",
+        "estimated_labor_cost": "71000",
+        "actual_labor_cost": "75500",
+        "estimated_duration_days": "133",
+        "actual_duration_days": "141"
+    },
+    {
+        "site_id": "S054",
+        "site_name": "Larch Ridge Mall",
+        "estimated_materials_cost": "71000",
+        "actual_materials_cost": "74500",
+        "estimated_labor_cost": "51000",
+        "actual_labor_cost": "53500",
+        "estimated_duration_days": "104",
+        "actual_duration_days": "109"
+    },
+    {
+        "site_id": "S055",
+        "site_name": "Mimosa Valley Office",
+        "estimated_materials_cost": "47000",
+        "actual_materials_cost": "49500",
+        "estimated_labor_cost": "33000",
+        "actual_labor_cost": "35000",
+        "estimated_duration_days": "83",
+        "actual_duration_days": "87"
+    },
+    {
+        "site_id": "S056",
+        "site_name": "Rowan Hill Plaza",
+        "estimated_materials_cost": "84000",
+        "actual_materials_cost": "88000",
+        "estimated_labor_cost": "59000",
+        "actual_labor_cost": "62500",
+        "estimated_duration_days": "115",
+        "actual_duration_days": "121"
+    },
+    {
+        "site_id": "S057",
+        "site_name": "Tupelo Point Complex",
+        "estimated_materials_cost": "58000",
+        "actual_materials_cost": "61000",
+        "estimated_labor_cost": "41000",
+        "actual_labor_cost": "43500",
+        "estimated_duration_days": "92",
+        "actual_duration_days": "97"
+    },
+    {
+        "site_id": "S058",
+        "site_name": "Buckeye Creek Tower",
+        "estimated_materials_cost": "95000",
+        "actual_materials_cost": "99500",
+        "estimated_labor_cost": "67000",
+        "actual_labor_cost": "71000",
+        "estimated_duration_days": "126",
+        "actual_duration_days": "133"
+    },
+    {
+        "site_id": "S059",
+        "site_name": "Ginkgo Street Center",
+        "estimated_materials_cost": "72000",
+        "actual_materials_cost": "75500",
+        "estimated_labor_cost": "51000",
+        "actual_labor_cost": "53500",
+        "estimated_duration_days": "103",
+        "actual_duration_days": "108"
+    },
+    {
+        "site_id": "S060",
+        "site_name": "Linden Bay Building",
+        "estimated_materials_cost": "55000",
+        "actual_materials_cost": "57500",
+        "estimated_labor_cost": "39000",
+        "actual_labor_cost": "41000",
+        "estimated_duration_days": "89",
+        "actual_duration_days": "93"
+    },
+    {
+        "site_id": "S061",
+        "site_name": "Acacia Ridge Mall",
+        "estimated_materials_cost": "86000",
+        "actual_materials_cost": "90500",
+        "estimated_labor_cost": "61000",
+        "actual_labor_cost": "64500",
+        "estimated_duration_days": "117",
+        "actual_duration_days": "124"
+    },
+    {
+        "site_id": "S062",
+        "site_name": "Jacaranda Valley Office",
+        "estimated_materials_cost": "64000",
+        "actual_materials_cost": "67000",
+        "estimated_labor_cost": "45000",
+        "actual_labor_cost": "47500",
+        "estimated_duration_days": "98",
+        "actual_duration_days": "103"
+    },
+    {
+        "site_id": "S063",
+        "site_name": "Mahogany Grove Plaza",
+        "estimated_materials_cost": "97000",
+        "actual_materials_cost": "101500",
+        "estimated_labor_cost": "69000",
+        "actual_labor_cost": "72500",
+        "estimated_duration_days": "128",
+        "actual_duration_days": "135"
+    },
+    {
+        "site_id": "S064",
+        "site_name": "Teak Hill Complex",
+        "estimated_materials_cost": "68000",
+        "actual_materials_cost": "71500",
+        "estimated_labor_cost": "48000",
+        "actual_labor_cost": "50500",
+        "estimated_duration_days": "100",
+        "actual_duration_days": "105"
+    },
+    {
+        "site_id": "S065",
+        "site_name": "Bamboo Point Tower",
+        "estimated_materials_cost": "79000",
+        "actual_materials_cost": "83000",
+        "estimated_labor_cost": "56000",
+        "actual_labor_cost": "59000",
+        "estimated_duration_days": "111",
+        "actual_duration_days": "117"
+    },
+    {
+        "site_id": "S066",
+        "site_name": "Ebony Creek Center",
+        "estimated_materials_cost": "53000",
+        "actual_materials_cost": "55500",
+        "estimated_labor_cost": "37000",
+        "actual_labor_cost": "39000",
+        "estimated_duration_days": "87",
+        "actual_duration_days": "91"
+    },
+    {
+        "site_id": "S067",
+        "site_name": "Sandalwood Street Building",
+        "estimated_materials_cost": "91000",
+        "actual_materials_cost": "95500",
+        "estimated_labor_cost": "64000",
+        "actual_labor_cost": "67500",
+        "estimated_duration_days": "120",
+        "actual_duration_days": "127"
+    },
+    {
+        "site_id": "S068",
+        "site_name": "Rosewood Bay Mall",
+        "estimated_materials_cost": "61000",
+        "actual_materials_cost": "64000",
+        "estimated_labor_cost": "43000",
+        "actual_labor_cost": "45500",
+        "estimated_duration_days": "94",
+        "actual_duration_days": "99"
+    },
+    {
+        "site_id": "S069",
+        "site_name": "Teak Valley Office",
+        "estimated_materials_cost": "75000",
+        "actual_materials_cost": "78500",
+        "estimated_labor_cost": "54000",
+        "actual_labor_cost": "56500",
+        "estimated_duration_days": "107",
+        "actual_duration_days": "113"
+    },
+    {
+        "site_id": "S070",
+        "site_name": "Zebrawood Ridge Plaza",
+        "estimated_materials_cost": "50000",
+        "actual_materials_cost": "52500",
+        "estimated_labor_cost": "35000",
+        "actual_labor_cost": "37000",
+        "estimated_duration_days": "84",
+        "actual_duration_days": "88"
+    },
+    {
+        "site_id": "S071",
+        "site_name": "Boxwood Hill Tower",
+        "estimated_materials_cost": "87000",
+        "actual_materials_cost": "91000",
+        "estimated_labor_cost": "61000",
+        "actual_labor_cost": "64500",
+        "estimated_duration_days": "116",
+        "actual_duration_days": "123"
+    },
+    {
+        "site_id": "S072",
+        "site_name": "Lignum Point Complex",
+        "estimated_materials_cost": "63000",
+        "actual_materials_cost": "66000",
+        "estimated_labor_cost": "44000",
+        "actual_labor_cost": "46500",
+        "estimated_duration_days": "97",
+        "actual_duration_days": "102"
+    },
+    {
+        "site_id": "S073",
+        "site_name": "Butternut Creek Center",
+        "estimated_materials_cost": "99000",
+        "actual_materials_cost": "103500",
+        "estimated_labor_cost": "70000",
+        "actual_labor_cost": "74000",
+        "estimated_duration_days": "130",
+        "actual_duration_days": "138"
+    },
+    {
+        "site_id": "S074",
+        "site_name": "Myrtle Street Building",
+        "estimated_materials_cost": "70000",
+        "actual_materials_cost": "73500",
+        "estimated_labor_cost": "50000",
+        "actual_labor_cost": "52500",
+        "estimated_duration_days": "102",
+        "actual_duration_days": "107"
+    },
+    {
+        "site_id": "S075",
+        "site_name": "Olive Bay Mall",
+        "estimated_materials_cost": "46000",
+        "actual_materials_cost": "48500",
+        "estimated_labor_cost": "32000",
+        "actual_labor_cost": "34000",
+        "estimated_duration_days": "82",
+        "actual_duration_days": "86"
+    },
+    {
+        "site_id": "S076",
+        "site_name": "Sapele Ridge Office",
+        "estimated_materials_cost": "83000",
+        "actual_materials_cost": "87000",
+        "estimated_labor_cost": "58000",
+        "actual_labor_cost": "61500",
+        "estimated_duration_days": "114",
+        "actual_duration_days": "120"
+    },
+    {
+        "site_id": "S077",
+        "site_name": "Wenge Valley Plaza",
+        "estimated_materials_cost": "57000",
+        "actual_materials_cost": "60000",
+        "estimated_labor_cost": "40000",
+        "actual_labor_cost": "42500",
+        "estimated_duration_days": "91",
+        "actual_duration_days": "96"
+    },
+    {
+        "site_id": "S078",
+        "site_name": "Bubinga Grove Tower",
+        "estimated_materials_cost": "94000",
+        "actual_materials_cost": "98500",
+        "estimated_labor_cost": "66000",
+        "actual_labor_cost": "70000",
+        "estimated_duration_days": "125",
+        "actual_duration_days": "132"
+    },
+    {
+        "site_id": "S079",
+        "site_name": "Kingwood Hill Complex",
+        "estimated_materials_cost": "71000",
+        "actual_materials_cost": "74500",
+        "estimated_labor_cost": "51000",
+        "actual_labor_cost": "53500",
+        "estimated_duration_days": "103",
+        "actual_duration_days": "108"
+    },
+    {
+        "site_id": "S080",
+        "site_name": "Tamo Point Center",
+        "estimated_materials_cost": "54000",
+        "actual_materials_cost": "56500",
+        "estimated_labor_cost": "38000",
+        "actual_labor_cost": "40000",
+        "estimated_duration_days": "88",
+        "actual_duration_days": "92"
+    },
+    {
+        "site_id": "S081",
+        "site_name": "Afrormosia Creek Building",
+        "estimated_materials_cost": "85000",
+        "actual_materials_cost": "89500",
+        "estimated_labor_cost": "60000",
+        "actual_labor_cost": "63500",
+        "estimated_duration_days": "115",
+        "actual_duration_days": "122"
+    },
+    {
+        "site_id": "S082",
+        "site_name": "Etimoe Street Mall",
+        "estimated_materials_cost": "62000",
+        "actual_materials_cost": "65000",
+        "estimated_labor_cost": "44000",
+        "actual_labor_cost": "46000",
+        "estimated_duration_days": "96",
+        "actual_duration_days": "101"
+    },
+    {
+        "site_id": "S083",
+        "site_name": "Padauk Bay Office",
+        "estimated_materials_cost": "96000",
+        "actual_materials_cost": "100500",
+        "estimated_labor_cost": "68000",
+        "actual_labor_cost": "72000",
+        "estimated_duration_days": "127",
+        "actual_duration_days": "134"
+    },
+    {
+        "site_id": "S084",
+        "site_name": "Cumaru Ridge Plaza",
+        "estimated_materials_cost": "69000",
+        "actual_materials_cost": "72500",
+        "estimated_labor_cost": "49000",
+        "actual_labor_cost": "51500",
+        "estimated_duration_days": "101",
+        "actual_duration_days": "106"
+    },
+    {
+        "site_id": "S085",
+        "site_name": "Ipe Valley Tower",
+        "estimated_materials_cost": "78000",
+        "actual_materials_cost": "82000",
+        "estimated_labor_cost": "56000",
+        "actual_labor_cost": "58500",
+        "estimated_duration_days": "110",
+        "actual_duration_days": "116"
+    },
+    {
+        "site_id": "S086",
+        "site_name": "Jatoba Hill Complex",
+        "estimated_materials_cost": "52000",
+        "actual_materials_cost": "54500",
+        "estimated_labor_cost": "36000",
+        "actual_labor_cost": "38500",
+        "estimated_duration_days": "86",
+        "actual_duration_days": "90"
+    },
+    {
+        "site_id": "S087",
+        "site_name": "Tigerwood Point Center",
+        "estimated_materials_cost": "90000",
+        "actual_materials_cost": "94000",
+        "estimated_labor_cost": "63000",
+        "actual_labor_cost": "66500",
+        "estimated_duration_days": "119",
+        "actual_duration_days": "126"
+    },
+    {
+        "site_id": "S088",
+        "site_name": "Santos Creek Building",
+        "estimated_materials_cost": "60000",
+        "actual_materials_cost": "63000",
+        "estimated_labor_cost": "42000",
+        "actual_labor_cost": "44500",
+        "estimated_duration_days": "93",
+        "actual_duration_days": "98"
+    },
+    {
+        "site_id": "S089",
+        "site_name": "Amendoim Street Mall",
+        "estimated_materials_cost": "74000",
+        "actual_materials_cost": "77500",
+        "estimated_labor_cost": "53000",
+        "actual_labor_cost": "55500",
+        "estimated_duration_days": "106",
+        "actual_duration_days": "112"
+    },
+    {
+        "site_id": "S090",
+        "site_name": "Garapa Bay Office",
+        "estimated_materials_cost": "49000",
+        "actual_materials_cost": "51500",
+        "estimated_labor_cost": "34000",
+        "actual_labor_cost": "36500",
+        "estimated_duration_days": "83",
+        "actual_duration_days": "87"
+    },
+    {
+        "site_id": "S091",
+        "site_name": "Massaranduba Ridge Plaza",
+        "estimated_materials_cost": "86000",
+        "actual_materials_cost": "90000",
+        "estimated_labor_cost": "60000",
+        "actual_labor_cost": "63500",
+        "estimated_duration_days": "116",
+        "actual_duration_days": "123"
+    },
+    {
+        "site_id": "S092",
+        "site_name": "Peroba Valley Tower",
+        "estimated_materials_cost": "64000",
+        "actual_materials_cost": "67000",
+        "estimated_labor_cost": "45000",
+        "actual_labor_cost": "47500",
+        "estimated_duration_days": "98",
+        "actual_duration_days": "103"
+    },
+    {
+        "site_id": "S093",
+        "site_name": "Tatajuba Grove Complex",
+        "estimated_materials_cost": "98000",
+        "actual_materials_cost": "102500",
+        "estimated_labor_cost": "69000",
+        "actual_labor_cost": "73000",
+        "estimated_duration_days": "129",
+        "actual_duration_days": "137"
+    },
+    {
+        "site_id": "S094",
+        "site_name": "Angico Hill Center",
+        "estimated_materials_cost": "68000",
+        "actual_materials_cost": "71500",
+        "estimated_labor_cost": "48000",
+        "actual_labor_cost": "50500",
+        "estimated_duration_days": "100",
+        "actual_duration_days": "105"
+    },
+    {
+        "site_id": "S095",
+        "site_name": "Roxinho Point Building",
+        "estimated_materials_cost": "77000",
+        "actual_materials_cost": "81000",
+        "estimated_labor_cost": "55000",
+        "actual_labor_cost": "57500",
+        "estimated_duration_days": "109",
+        "actual_duration_days": "115"
+    },
+    {
+        "site_id": "S096",
+        "site_name": "Angelim Creek Mall",
+        "estimated_materials_cost": "51000",
+        "actual_materials_cost": "53500",
+        "estimated_labor_cost": "36000",
+        "actual_labor_cost": "38000",
+        "estimated_duration_days": "85",
+        "actual_duration_days": "89"
+    },
+    {
+        "site_id": "S097",
+        "site_name": "Goncalo Street Tower",
+        "estimated_materials_cost": "88000",
+        "actual_materials_cost": "92000",
+        "estimated_labor_cost": "62000",
+        "actual_labor_cost": "65000",
+        "estimated_duration_days": "118",
+        "actual_duration_days": "125"
+    },
+    {
+        "site_id": "S098",
+        "site_name": "Cupiuba Bay Office",
+        "estimated_materials_cost": "59000",
+        "actual_materials_cost": "62000",
+        "estimated_labor_cost": "42000",
+        "actual_labor_cost": "44000",
+        "estimated_duration_days": "92",
+        "actual_duration_days": "97"
+    },
+    {
+        "site_id": "S099",
+        "site_name": "Jequitiba Ridge Plaza",
+        "estimated_materials_cost": "93000",
+        "actual_materials_cost": "97500",
+        "estimated_labor_cost": "66000",
+        "actual_labor_cost": "69500",
+        "estimated_duration_days": "123",
+        "actual_duration_days": "130"
+    },
+    {
+        "site_id": "S100",
+        "site_name": "Sucupira Valley Complex",
+        "estimated_materials_cost": "67000",
+        "actual_materials_cost": "70500",
+        "estimated_labor_cost": "47000",
+        "actual_labor_cost": "49500",
+        "estimated_duration_days": "99",
+        "actual_duration_days": "104"
+    },
+    {
+        "site_id": "S101",
+        "site_name": "Canela Hill Tower",
+        "estimated_materials_cost": "82000",
+        "actual_materials_cost": "86000",
+        "estimated_labor_cost": "58000",
+        "actual_labor_cost": "61000",
+        "estimated_duration_days": "113",
+        "actual_duration_days": "119"
+    },
+    {
+        "site_id": "S102",
+        "site_name": "Freijo Point Center",
+        "estimated_materials_cost": "56000",
+        "actual_materials_cost": "58500",
+        "estimated_labor_cost": "39000",
+        "actual_labor_cost": "41500",
+        "estimated_duration_days": "90",
+        "actual_duration_days": "94"
+    },
+    {
+        "site_id": "S103",
+        "site_name": "Muiracatiara Creek Building",
+        "estimated_materials_cost": "89000",
+        "actual_materials_cost": "93500",
+        "estimated_labor_cost": "63000",
+        "actual_labor_cost": "66500",
+        "estimated_duration_days": "119",
+        "actual_duration_days": "126"
+    },
+    {
+        "site_id": "S104",
+        "site_name": "Cacheta Street Mall",
+        "estimated_materials_cost": "63000",
+        "actual_materials_cost": "66000",
+        "estimated_labor_cost": "44000",
+        "actual_labor_cost": "46500",
+        "estimated_duration_days": "97",
+        "actual_duration_days": "102"
+    },
+    {
+        "site_id": "S105",
+        "site_name": "Louro Bay Office",
+        "estimated_materials_cost": "95000",
+        "actual_materials_cost": "99000",
+        "estimated_labor_cost": "67000",
+        "actual_labor_cost": "71000",
+        "estimated_duration_days": "126",
+        "actual_duration_days": "133"
+    }
+]
