@@ -1,0 +1,16 @@
+{
+    "response": {
+        "generations": [
+            [
+                {
+                    "text": "The projects that are delayed are:\n\n- Downtown Plaza\n- Harbor View Complex\n- Riverside Tower\n- Central Park Building\n- Northgate Office\n- Southpoint Retail\n- Eastside Warehouse\n- Hilltop Residence\n- Lakefront Villa\n- Sunset Boulevard\n- Ocean Drive Complex\n- Valley Creek Center\n- Pine Ridge Office\n- Maple Street Building\n- Oak Lane Plaza\n- Cedar Point Tower\n- Birch Grove Mall\n- Willow Park Complex\n- Elm Avenue Center\n- Spruce Hill Office\n- Redwood Valley Plaza\n- Cypress Bay Tower\n- Juniper Creek Mall\n- Sequoia Ridge Complex\n- Magnolia Street Center\n- Poplar Lane Office\n- Sycamore Point Plaza\n- Chestnut Grove Building\n- Hickory Ridge Tower\n- Walnut Valley Mall\n- Beech Creek Complex\n- Fir Hill Office\n- Cherry Lane Plaza\n- Pecan Street Center\n- Cottonwood Tower\n- Dogwood Bay Building\n- Laurel Point Mall\n- Hemlock Ridge Complex\n- Alder Valley Office\n- Basswood Creek Plaza\n- Ironwood Street Tower\n- Locust Hill Center\n- Mesquite Bay Building\n- Persimmon Ridge Mall\n- Sumac Valley Office\n- Tamarack Point Plaza\n- Yew Creek Complex\n- Banyan Street Tower\n- Catalpa Grove Center\n- Hawthorn Bay Building\n- Larch Ridge Mall\n- Mimosa Valley Office\n- Rowan Hill Plaza\n- Tupelo Point Complex\n- Buckeye Creek Tower\n- Ginkgo Street Center\n- Linden Bay Building\n- Acacia Ridge Mall\n- Jacaranda Valley Office\n- Mahogany Grove Plaza\n- Teak Hill Complex\n- Bamboo Point Tower\n- Ebony Creek Center\n- Sandalwood Street Building\n- Rosewood Bay Mall\n- Teak Valley Office\n- Zebrawood Ridge Plaza\n- Boxwood Hill Tower\n- Lignum Point Complex\n- Butternut Creek Center\n- Myrtle Street Building\n- Olive Bay Mall\n- Sapele Ridge Office\n- Wenge Valley Plaza\n- Bubinga Grove Tower\n- Kingwood Hill Complex\n- Tamo Point Center\n- Afrormosia Creek Building\n- Etimoe Street Mall\n- Padauk Bay Office\n- Cumaru Ridge Plaza\n- Ipe Valley Tower\n- Jatoba Hill Complex\n- Tigerwood Point Center\n- Santos Creek Building\n- Amendoim Street Mall\n- Garapa Bay Office\n- Massaranduba Ridge Plaza\n- Peroba Valley Tower\n- Tatajuba Grove Complex\n- Angico Hill Center\n- Roxinho Point Building\n- Angelim Creek Mall\n- Goncalo Street Tower\n- Cupiuba Bay Office\n- Jequitiba Ridge Plaza\n- Sucupira Valley Complex\n- Canela Hill Tower\n- Freijo Point Center\n- Muiracatiara Creek Building\n- Cacheta Street Mall\n- Louro Bay Office"
+                }
+            ]
+        ]
+    },
+    "tokenUsageEstimate": {
+        "completionTokens": 602,
+        "promptTokens": 1669,
+        "totalTokens": 2271
+    }
+}

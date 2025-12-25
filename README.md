@@ -17,6 +17,9 @@ The repository is organized by course modules. Each module's folder contains the
 ├── M2U2/
 │   ├── README.md
 │   └── ... (Project Data Handling files)
+├── M2U3/
+│   ├── README.md
+│   └── ... (RAG workflow JSON + screenshots)
 └── README.md
 ```
 
@@ -28,6 +31,7 @@ Below is a summary of the assignments completed during the course. Click on the 
 | :--- | :--- | :--- |
 | [M2U1](./M2U1/) | FIDIC Notice Generator | A tool to automate the generation of FIDIC notices based on contract conditions. |
 | [M2U2](./M2U2/) | Project Data Handling with Python | A Python script for analyzing project cost data, highlighting overruns and delays. |
+| [M2U3](./M2U3/) | RAG Mini Project (n8n) | A simple RAG-style workflow that loads project data, filters relevant subsets, and answers using only retrieved context. |
 
 ## Running the Code
 
@@ -52,6 +56,8 @@ To run the project data handling script, execute:
 ```bash
 streamlit run M2U2/main.py
 ```
+
+### M2U3: RAG Mini Project (n8n)
 
 ## About the Author
 
