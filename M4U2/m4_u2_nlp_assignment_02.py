@@ -5,7 +5,6 @@
 
 import json
 import re
-from datetime import datetime
 
 # ============================================================================
 # ORIGINAL UNSTRUCTURED DOCUMENT
@@ -147,17 +146,20 @@ def extract_governing_law(text):
     return law_match.group(1).strip() if law_match else "Not found"
 
 
+# --- Normalise whitespace so regex patterns work across embedded newlines ---
+document_normalized = " ".join(document.split())
+
 # --- Run all extractors ---
-dates = extract_dates(document)
-monetary = extract_monetary_values(document)
-deadlines = extract_durations_and_deadlines(document)
-risks = extract_penalties_and_risks(document)
-obligations = extract_obligations(document)
-parties = extract_parties(document)
-location = extract_location(document)
-project_type = extract_project_type(document)
-dispute = extract_dispute_resolution(document)
-governing_law = extract_governing_law(document)
+dates = extract_dates(document_normalized)
+monetary = extract_monetary_values(document_normalized)
+deadlines = extract_durations_and_deadlines(document_normalized)
+risks = extract_penalties_and_risks(document_normalized)
+obligations = extract_obligations(document_normalized)
+parties = extract_parties(document_normalized)
+location = extract_location(document_normalized)
+project_type = extract_project_type(document_normalized)
+dispute = extract_dispute_resolution(document_normalized)
+governing_law = extract_governing_law(document_normalized)
 
 # --- Build structured JSON output ---
 structured_data = {

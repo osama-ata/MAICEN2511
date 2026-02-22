@@ -46,12 +46,12 @@ A rule-based NLP pipeline was implemented using Python's `re` module with the fo
 {
   "document_type": "Construction Contract Excerpt",
   "parties": {
-    "Client": "GreenBuild\nDevelopments Ltd.",
+    "Client": "GreenBuild Developments Ltd.",
     "Contractor": "Apex Civil Works"
   },
   "project": {
     "type": "mixed-use commercial building",
-    "location": "Riverside Business\nPark, London"
+    "location": "Riverside Business Park, London"
   },
   "key_dates": {
     "contract_date": "12 March 2024",
@@ -96,7 +96,7 @@ A rule-based NLP pipeline was implemented using Python's `re` module with the fo
     ]
   },
   "dispute_resolution": "Mediation before legal action",
-  "governing_law": "Not found"
+  "governing_law": "England and Wales"
 }
 ```
 
