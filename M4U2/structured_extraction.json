@@ -1,0 +1,55 @@
+{
+  "document_type": "Construction Contract Excerpt",
+  "parties": {
+    "Client": "GreenBuild\nDevelopments Ltd.",
+    "Contractor": "Apex Civil Works"
+  },
+  "project": {
+    "type": "mixed-use commercial building",
+    "location": "Riverside Business\nPark, London"
+  },
+  "key_dates": {
+    "contract_date": "12 March 2024",
+    "commencement_date": "1 April 2024 (on or before)",
+    "practical_completion": "31 December 2024 (no later than)"
+  },
+  "financial_terms": {
+    "contract_value": "\u00a34.2 million",
+    "payment_method": "Monthly instalments subject to approved progress claims",
+    "retention": "Up to 10% of each payment until final completion",
+    "delay_penalty": "Up to \u00a35,000 per week"
+  },
+  "key_activities_and_clauses": [
+    "Construction of a mixed-use commercial building",
+    "Monthly progress claim submissions required for payment",
+    "Written notification of delays within 5 working days",
+    "Site safety maintenance and H&S regulation compliance",
+    "Incident/injury reporting within 24 hours",
+    "Mediation before legal action for disputes"
+  ],
+  "risks_and_issues": [
+    "Delay penalties of \u00a35,000/week for unreported delays",
+    "Weather conditions may cause schedule disruption",
+    "Supply chain disruptions as recognized delay cause",
+    "Regulatory approval delays",
+    "10% payment retention risk to contractor cash flow",
+    "Liability for negligence, accidents, or statutory non-compliance"
+  ],
+  "obligations_and_actions": {
+    "contractor": [
+      "Commence work on or before 1 April 2024",
+      "Achieve practical completion by 31 December 2024",
+      "Notify Client of delays in writing within 5 working days",
+      "Maintain site safety and comply with H&S regulations",
+      "Report injuries within 24 hours",
+      "Indemnify Client against negligence/accident claims"
+    ],
+    "client": [
+      "Make monthly payments upon approved progress claims",
+      "May withhold up to 10% retention per payment",
+      "Attempt mediation before legal proceedings"
+    ]
+  },
+  "dispute_resolution": "Mediation before legal action",
+  "governing_law": "Not found"
+}
