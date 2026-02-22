@@ -11,37 +11,33 @@ The repository is organized by course modules. Each module's folder contains the
 
 ```
 .
-├── M2U1/
-│   ├── README.md
-│   └── ... (FIDIC Notice Generator files)
-├── M2U2/
-│   ├── README.md
-│   └── ... (Project Data Handling files)
-├── M2U3/
-│   ├── README.md
-│   └── ... (RAG workflow JSON + screenshots)
+├── M2U1/           # FIDIC Notice Generator
+├── M2U2/           # Project Data Handling with Python
+├── M2U3/           # RAG Mini Project (n8n)
+├── M4U1/           # Predictive Engine for Building Energy Efficiency
+├── M4U2/           # NLP for Construction Document Analysis
 └── README.md
 ```
 
 ## Assignments Overview
 
-Below is a summary of the assignments completed during the course. Click on the module to navigate to the specific project.
-
-| Module | Assignment Title | Description |
-| :--- | :--- | :--- |
-| [M2U1](./M2U1/) | FIDIC Notice Generator | A tool to automate the generation of FIDIC notices based on contract conditions. |
-| [M2U2](./M2U2/) | Project Data Handling with Python | A Python script for analyzing project cost data, highlighting overruns and delays. |
-| [M2U3](./M2U3/) | RAG Mini Project (n8n) | A simple RAG-style workflow that loads project data, filters relevant subsets, and answers using only retrieved context. |
+| Module          | Assignment Title                                 | Description                                                                                                                                                     |
+| :-------------- | :----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [M2U1](./M2U1/) | FIDIC Notice Generator                           | A tool to automate the generation of FIDIC notices based on contract conditions.                                                                                |
+| [M2U2](./M2U2/) | Project Data Handling with Python                | A Python script for analyzing project cost data, highlighting overruns and delays.                                                                              |
+| [M2U3](./M2U3/) | RAG Mini Project (n8n)                           | A simple RAG-style workflow that loads project data, filters relevant subsets, and answers using only retrieved context.                                        |
+| [M4U1](./M4U1/) | Predictive Engine for Building Energy Efficiency | Supervised ML pipeline (Linear Regression vs Random Forest) to predict Heating Load from building geometry. Random Forest achieved R² = 0.9977.                 |
+| [M4U2](./M4U2/) | NLP for Construction Document Analysis           | Rule-based NLP pipeline to extract structured data from an unstructured construction contract, with summarisation, prompt engineering, and critical commentary. |
 
 ## Running the Code
 
-Ensure UV is installed in your Python environment. You can install it via pip if you haven't done so:
+Ensure UV is installed in your Python environment:
 
 ```bash
 pip install uv
 ```
 
-install the dependencies for each module by navigating to the respective directory and running:
+Install dependencies for each module by navigating to the respective directory and running:
 
 ```bash
 uv install
@@ -51,13 +47,23 @@ uv install
 
 ### M2U2: Project Data Handling with Python
 
-To run the project data handling script, execute:
-
 ```bash
 streamlit run M2U2/main.py
 ```
 
 ### M2U3: RAG Mini Project (n8n)
+
+### M4U1: Predictive Engine
+
+```bash
+jupyter notebook M4U1/M4U1_Predictive_Engine.ipynb
+```
+
+### M4U2: NLP Pipeline
+
+```bash
+python3 M4U2/m4_u2_nlp_assignment_02.py
+```
 
 ## About the Author
 
@@ -68,4 +74,4 @@ This repository is maintained by **Osama Ata**.
 
 ---
 
-*This repository is for educational purposes as part of the MAICEN-1125 program.*
+_This repository is for educational purposes as part of the MAICEN-1125 program._
